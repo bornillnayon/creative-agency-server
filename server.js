@@ -12,7 +12,7 @@ require('dotenv').config()
 const admin = require('firebase-admin');
 
 
-const { ObjectID } = require('mongodb')
+const { ObjectID } = require('mongodb') 
 
 const serviceAccount = require(`${__dirname}/private.json`);
 admin.initializeApp({
